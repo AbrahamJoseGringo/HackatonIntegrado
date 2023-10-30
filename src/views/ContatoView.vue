@@ -290,4 +290,193 @@ h2 {
     margin-top: 30px;
     color: #37404D;
 }
+
+@media (max-width: 768px) {
+.centro {
+    margin-top: -18%;
+}
+
+.form {
+    height: 650px;
+    max-width: 700px;
+    padding: 25px;
+    /* border: 1px solid #ccc; */
+    /* background-color: #848486; */
+    width: 85vh;
+    font-family: "Open Sans" sans-serif;
+    transform: scale(0.8);
+    font-size: 22px;
+    margin-top: 4%;
+}
+
+
+.info {
+    margin-left: 1%;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    padding: 0 0 0 70px;
+    list-style: none;
+    padding-left: 60px;
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 22px;
+    color: #535353;
+}
+
+textarea {
+    resize: none;
+    width: 1000px;
+    height: 400px;
+
+}
+
+.baixo {
+    margin-left: 15%;
+    margin-top: -5%;
+    flex-direction: row;
+    font-size: medium;
+    font-family: "Open Sans" sans-serif;
+    justify-content: center;
+    border: 5px;
+    display: flex;
+     font-weight: bold;
+
+}
+
+.comp {
+    color: white;
+    height: 40px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 47%;
+    border: 1px;
+    font-size: 21px;
+    background-color: #f28a31;
+    margin-top: 20%;
+}
+
+.nome {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 8%;
+    /* margin-bottom: 10%; */
+}
+
+.email {
+    margin-right: -8%;
+    margin-top: -6%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.telefoneCL {
+    margin-top: -3%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    /* margin-bottom: 20%; */
+}
+
+
+.telefoneFX {
+    margin-right: -8%;
+    margin-top: -6%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.mensagem {
+    width: 650px;
+    height: 200px;
+    display: flex;
+    /* align-items: end; */
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.container-form {
+    margin-left: 35%;
+    margin-top: -19%;
+}
+
+.row {
+    
+    margin-right: -500px;
+    margin-left: -10px;
+}
+
+.titu {
+    color: white;
+}
+
+.titu2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.titu3 {
+    padding: 0 0 0 20px;
+}
+.dados {
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: black; */
+}
+
+.img1 {
+    height: 38px;
+    width: 45px;
+}
+
+.banner {
+    border-radius: 0%;
+    background: url(https://www.rafaelfonsecaimoveis.com.br/assets/img/anuncie/banner-anuncie.png) top left repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    height: 280px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: rgba(36, 42, 53, 0.7);
+    /* color: aliceblue; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 100px 0 0 0 ; */
+}
+
+.inner-text {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    opacity: 70%;
+}
+
+.CO {
+    font-size: 25px;
+    margin-top: 30px;
+    color: #37404D;
+}
+
+}
+
+@media (max-width: 480px) {
+    /* Estilos para telas ainda menores, como smartphones */
+    /* Faça alterações mais significativas no layout, como tornar os elementos em bloco */
+}
 </style>

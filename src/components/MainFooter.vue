@@ -205,4 +205,127 @@ h1 {
     color: white;
     margin-top: 80px;
     margin-bottom: 30px;
-}</style>
+}
+
+@media (max-width: 768px) {
+    input {
+    padding: 2%;
+    width: 250px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.info {
+    margin-left: 8%;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 0 0 0 70px;
+    list-style: none;
+    padding-left: 2px;
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 22px;
+    color: #535353;
+}
+
+.img1 {
+    margin-top: 5px;
+    height: 28px;
+    width: 25px;
+
+}
+
+.comp {
+    color: white;
+    height: 34px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0%;
+    border: 1px;
+    font-size: 16px;
+    background-color: #f28a31;
+    margin-top: 20%;
+    letter-spacing: 1px;
+    justify-content: center;
+    font-family: "Open Sans" sans-serif;
+}
+
+.routerBusca {
+    text-decoration: none;
+    color: #AAAAAA;
+}
+
+.routerHome {
+    text-decoration: none;
+    color: #AAAAAA;
+}
+
+.routerFale {
+    text-decoration: none;
+    color: #AAAAAA;
+}
+
+.pzin {
+    margin-top: 15px;
+}
+
+.main-footer {
+    padding: 10px 10px 768px 12px;
+    background-color: #02193c;
+    display: flex;
+    flex-direction: row;
+}
+
+.contato {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 250px;
+}
+
+.entramos {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 250px;
+}
+
+.miniform {
+    background-color: #021830;
+    width: 280px;
+    height: 350px;
+    padding: 15px;
+}
+
+.links {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0px, 10px, 20px, 60px;
+    padding-left: 6%;
+}
+
+
+.main-footer div {
+    color: #AAAAAA;
+    margin: 0 15px 0 0;
+    font-size: 12px;
+}
+
+
+h1 {
+    font-size: medium;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 30px;
+
+    }
+    }
+
+</style>

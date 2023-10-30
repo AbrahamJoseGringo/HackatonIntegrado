@@ -363,12 +363,12 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    margin-top: 8%;
+    margin-top: -7%;
     /* margin-bottom: 10%; */
 }
 
 .email {
-    margin-right: -8%;
+    margin-right: -3%;
     margin-top: -6%;
     display: flex;
     flex-direction: column;
@@ -376,7 +376,7 @@ textarea {
 }
 
 .telefoneCL {
-    margin-top: -3%;
+    margin-top: 0%;
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -385,8 +385,7 @@ textarea {
 
 
 .telefoneFX {
-    margin-right: -8%;
-    margin-top: -6%;
+    margin-right: -3%;
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -434,8 +433,8 @@ h2 {
 }
 
 .img1 {
-    height: 38px;
-    width: 45px;
+    height: 50px;
+    width: 50px;
 }
 
 .banner {

@@ -136,7 +136,7 @@ const estado = ref('')
   padding: 30px;
   /* font-weight: bold; */
   border-top: 7px solid #f28a31;
-  background-color: #0f0f4180;
+  background-color: #01081d80;
   height: 400px;
   width: 700px;
   position: absolute;

@@ -276,12 +276,11 @@ h1 {
 }
 
 .main-footer {
-    padding: 10px 10px 768px 12px;
-    background-color: #02193c;
-    display: flex;
-    flex-direction: row;
-}
-
+        padding: 10px; /* Reduzi o padding para um valor único em todas as direções */
+        background-color: #02193c;
+        display: flex;
+        flex-direction: column; /* Mudei a direção para "column" para empilhar os elementos verticalmente */
+    }
 .contato {
     display: flex;
     align-items: flex-start;
